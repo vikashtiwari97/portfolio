@@ -44,15 +44,17 @@ import bsaLogo from './assets/education_logo/bsa_logo.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+import earninghandle from './assets/work_logo/earning-handle.jpg';
+import earningvendor from './assets/work_logo/earning-vendor.jpg';
+import earningaffiliate from './assets/work_logo/earning-affiliate.jpg';
+import affiliateios from './assets/work_logo/earning-ios.jpg';
+import earningandroid from './assets/work_logo/earning-android.jpg';
+import bookmyyagna from './assets/work_logo/book-my-yagna.jpg';
+import cyber from './assets/work_logo/cyber.jpg';
+import maaaa from './assets/work_logo/maaaa.jpg';
+import myhrandroid from './assets/work_logo/myhrms.jpg';
+import myhrios from './assets/work_logo/myhrios.jpg';
+import vid from './assets/work_logo/vid.jpg';
 
 
 export const SkillsInfo = [
@@ -64,11 +66,9 @@ export const SkillsInfo = [
       { name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
-      { name: 'Angular', logo: angularLogo },
+      { name: 'React Native', logo: reactjsLogo },
       { name: 'Redux', logo: reduxLogo },
-      { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
       { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
@@ -76,13 +76,10 @@ export const SkillsInfo = [
   {
     title: 'Backend',
     skills: [
-      { name: 'Springboot', logo: springbootLogo },
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
   {
@@ -92,7 +89,6 @@ export const SkillsInfo = [
       { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
     ],
@@ -105,8 +101,6 @@ export const SkillsInfo = [
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
       { name: 'Compass', logo: mcLogo },
-      { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
       { name: 'Figma', logo: figmaLogo },
     ],
   },
@@ -210,92 +204,101 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "GitHub Profile Detective",
+      title: "Earning Handle Web",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+        "Designed and developed the frontend of an affiliate marketing website, including website architecture, UI sections, color schemes, and responsive layouts. The platform enables users to share referral links and generate network-based commissions through an affiliate marketing model. Focused on creating an intuitive user experience and a professional web interface.",
+      image: earninghandle,
+      tags: ["HTML", "CSS", "JavaScript","TailwindCSS", "React JS", "API"],
+      webapp: "https://earninghandle.com",
     },
     {
       id: 1,
-      title: "CS Prep",
+      title: "Earning Handle Vender-Panel",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
+        "Developed a Vendor Management Panel using React.js, Material UI, and Redux for state management and authentication. The platform allows vendors to manage their products, track orders, view commission earnings, access ledger reports, update bank details, and handle customer inquiries through the Contact Us module. Built as a SaaS-based affiliate management solution, providing vendors with a centralized dashboard to efficiently manage their business operations and affiliate-related activities.",
+      image: earningvendor,
+      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript","Material UI","TailwindCSS"],
+      webapp: "https://earninghandle.com/vendor/login",
     },
     {
       id: 2,
-      title: "Movie Recommendation App",
+      title: "Earning Handle Affiliate",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+        "Developed an Affiliate Management Panel using React.js, Material UI, and Redux with secure authentication and state management. The platform enables affiliates to browse products, track orders, monitor commission earnings, view ledger reports, manage bank account details, and submit support requests through the Contact Us module. Additionally, affiliates can generate custom product slugs, share referral URLs, and create QR codes for product promotion. Built as a SaaS-based affiliate marketing solution, providing affiliates with a centralized dashboard to manage referrals, earnings, and promotional activities efficiently",
+      image: earningaffiliate,
+      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript","Material UI", "TailwindCSS"],
+      webapp: "https://earninghandle.com/affiliate/",
     },
     {
       id: 3,
-      title: "Email Validator NPM Package",
+      title: "Earning Handle Android-Application",
       description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+        "Developed a complete Vendor and Affiliate Management Platform with both Web and Android applications using React Native and Redux. Implemented secure authentication, state management, and responsive user interfaces. The platform enables vendors to manage products, track orders, monitor commissions, view ledger reports, update bank details, and handle customer inquiries. Affiliates can browse products, track earnings, view commissions and ledgers, manage bank details, generate custom product slugs, create QR codes, and share referral links for promotions. Built as a SaaS-based affiliate marketing ecosystem, providing a centralized dashboard for managing products, referrals, orders, and revenue across web and mobile platforms.",
+      image: earningandroid,
+      tags: ["React Native", "Firebase"],
+      webapp: "https://play.google.com/store/apps/details?id=com.earninghandle&pcampaignid=web_share",
     },
     {
       id: 4,
-      title: "Task Reminder Chrome Extension Tool",
+      title: "Earning Handle IOS-Application",
       description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+        "Developed a complete Vendor and Affiliate Management Platform with both Web and Android applications using React Native and Redux. Implemented secure authentication, state management, and responsive user interfaces. The platform enables vendors to manage products, track orders, monitor commissions, view ledger reports, update bank details, and handle customer inquiries. Affiliates can browse products, track earnings, view commissions and ledgers, manage bank details, generate custom product slugs, create QR codes, and share referral links for promotions. Built as a SaaS-based affiliate marketing ecosystem, providing a centralized dashboard for managing products, referrals, orders, and revenue across web and mobile platforms.",
+      image: affiliateios,
+      tags: ["React Native", "Firebase" , "cocopods"],
+      webapp: "https://apps.apple.com/us/app/earning-handle/id6751747259",
     },
     {
       id: 5,
-      title: "Webverse Digital",
+      title: "Book My Yagna",
       description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
+        "Developed a comprehensive religious services platform with Admin, Pandit, and User panels using React.js and modern web technologies. Implemented authentication and role-based access control for all user types. Built core functionalities including Pandit management, Panchang (Hindu calendar) integration, booking management, user dashboards, and administrative controls. Designed and implemented the complete application logic, workflows, and user management system. Integrated Cashfree Payment Gateway for secure online payments and booking transactions, ensuring a seamless experience for users booking religious ceremonies and services.",
+      image: bookmyyagna,
+      tags: ["HTML", "CSS", "JavaScript", "Framer Motion" , "ReactJS", "Tailwindcss" , "Payment Integration"],
+      webapp: "https://bookmyyagna.com/",
     },
     {
       id: 6,
-      title: "Coding Master",
+      title: "Cyber Kanun",
       description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
+        "Developed and maintained the frontend of a legal services platform using React.js and Tailwind CSS. Designed and implemented the complete website structure, responsive UI components, and user experience. Integrated REST APIs for dynamic content management and data handling. Built and managed the Admin Panel, including content management features, Contact Us management, and rich text editor integration for creating and updating website content. Worked on end-to-end frontend implementation, ensuring performance, scalability, and seamless interaction between the frontend and backend systems.",
+      image: cyber,
+      tags: ["HTML", "CSS", "JavaScript", "Framer Motion" , "ReactJS", "Tailwindcss"],
+      webapp: "https://cyberkanun.com/",
     },
     {
       id: 7,
-      title: "Image Search App",
+      title: "Maaa Android-Application",
       description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
+        "Developed a complete emergency safety mobile application from scratch using React Native, including both frontend and backend development. Implemented real-time location sharing through SMS, emergency help alerts, and quick-access safety features to assist users during critical situations. Built onboarding and tutorial video modules to guide users through the application, along with integrated in-app games to enhance engagement. Designed and developed the entire application architecture, API integrations, user interface, backend services, and deployment process, ensuring a reliable and user-friendly mobile experience.",
+      image: maaaa,
+      tags: ["React Native" , "NodeJS" , "MonogoDB" , "GoogleSheet" , "DLT"],
+      webapp: "https://play.google.com/store/apps/details?id=com.trendypixel.maaa&pcampaignid=web_share",
     },
     {
       id: 8,
-      title: "Image Background Remover",
+      title: "MyHrMinds Android-Application",
       description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
+        "Developed a complete HRMS mobile application using React Native, handling the entire frontend development and API integrations. Implemented employee attendance management, leave management, employee profiles, location-based tracking, push notifications, and real-time data synchronization. Built responsive and user-friendly interfaces for employees and administrators, ensuring smooth workforce management and communication. Collaborated with backend services to integrate authentication, reporting, and employee management features, delivering a scalable and production-ready HR solution for Android and iOS platforms.",
+      image: myhrandroid,
+      tags: ["React Native", "API", ],
+      webapp: "https://play.google.com/store/apps/details?id=com.myhrminds.kamleshkhyatiinfosolution&pcampaignid=web_share",
+    },
+     {
+      id: 9,
+      title: "MyHrMinds IOS-Application",
+      description:
+        "Developed a complete HRMS mobile application using React Native, handling the entire frontend development and API integrations. Implemented employee attendance management, leave management, employee profiles, location-based tracking, push notifications, and real-time data synchronization. Built responsive and user-friendly interfaces for employees and administrators, ensuring smooth workforce management and communication. Collaborated with backend services to integrate authentication, reporting, and employee management features, delivering a scalable and production-ready HR solution for Android and iOS platforms.",
+      image: myhrios,
+      tags: ["React Native", "API", ],
+      webapp: "https://apps.apple.com/us/app/myhrminds/id6762510300",
+    },
+     {
+      id: 9,
+      title: "VidhyalaOS - School ERP & Management System",
+      description:
+        "Developed and maintained a comprehensive School ERP platform using React.js, handling frontend development, API integrations, authentication, and dashboard modules. Built and enhanced various school management features including student management, attendance tracking, fee management, examination modules, staff and payroll management, admissions, academic records, notifications, and role-based dashboards for different users. Implemented responsive user interfaces, data visualization, reporting modules, and seamless communication between frontend and backend systems. Focused on delivering a scalable and user-friendly ERP solution that streamlined administrative, academic, and financial operations for educational institutions.",
+      image: vid,
+      tags: ["HTML", "CSS", "JavaScript","TailwindCSS", "React JS", "NodeJs","MonogoDB"],
+      webapp: "https://vidyalayos.com/#/signin",
     },
   ];  
