@@ -34,14 +34,16 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import free from './assets/company_logo/freelance.png';
+import kmlesh from './assets/company_logo/kamlesh.jpg';
+import innvoize from './assets/company_logo/innvoize.png';
+import grow from './assets/company_logo/grow.png';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import glaLogo from './assets/education_logo/Baba_Mastnath_University_logo.png';
+import bsaLogo from './assets/education_logo/Maharshi_Dayanand_University_logo.png';
+import vpsLogo from './assets/education_logo/Vidyasagar_school.png';
+import saini from './assets/education_logo/saini-logo.jpg';
 
 // Project Section Logo's
 import earninghandle from './assets/work_logo/earning-handle.jpg';
@@ -107,98 +109,49 @@ export const SkillsInfo = [
 ];
 
   export const experiences = [
-    {
-      id: 0,
-      img: webverseLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
-    },
-    {
-      id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
-      ],
-    },
-    {
-      id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
-      ],
-    },
+    { id: 0, img: free, role: "Freelance Full Stack & Mobile Developer", company: "Self Employed", date: "Feb 2026 - Present", desc: "Working as a Freelance Full Stack Developer, delivering end-to-end web and mobile solutions for clients across various industries. Responsible for project architecture, frontend and backend development, database design, API integrations, server management, hosting configuration, and deployment. Developed scalable applications using React.js, Next.js, Node.js, Express.js, MongoDB, and React Native. Managed VPS and cloud servers, configured domains, SSL, CI/CD workflows, and handled Android and iOS app publishing on Google Play Console and Apple App Store. Collaborated directly with clients to gather requirements, design solutions, develop features, and ensure successful project delivery from concept to production.", skills: [ "React.js", "Next.js", "React Native", "Node.js", "Express.js", "MongoDB", "TypeScript", "JavaScript", "Redux", "Tailwind CSS", "Material UI", "REST API", "VPS Management", "Linux Server", "Nginx", "PM2", "SSL Configuration", "CI/CD", "Git", "GitHub", "Android Studio", "Xcode", "Google Play Console", "Apple App Store", "Payment Gateway Integration" ], },
+    { id: 1, img: kmlesh, role: "Senior React Native Developer", company: "KamleshKhyati InfoSolutions Pvt. Ltd.", date: "Nov 2025 - Feb 2026", desc: "Worked as the primary React Native developer for the MyHrMinds mobile application, handling end-to-end development including UI implementation, API integration, authentication, and business logic. Developed key HRMS modules such as location-based attendance, Aadhaar onboarding through DigiLocker, bank account verification using Penny Drop APIs, and employee management workflows. Collaborated closely with the .NET backend team using Swagger and Postman for API testing and validation. Independently managed the complete mobile application lifecycle, including architecture design, development, debugging, optimization, testing, and deployment, while ensuring secure role-based authentication and a seamless user experience.", skills: [ "React Native", "JavaScript", "Redux", "REST API", "Postman", "Swagger", "OTP Authentication", "DigiLocker Integration", "Location Tracking", "Google Maps", "Android", "iOS", "Git", "VS Code" ], },
+    { id: 2, img: innvoize, role: "Senior Full Stack Developer", company: "Innovize Tech Solution Pvt. Ltd.", date: "Oct 2024 - Sep 2025", desc: "Worked as a Senior Full Stack Developer, leading the development of scalable web and mobile applications using React.js, Node.js, Express.js, MongoDB, and React Native. Designed project architectures, authentication systems, and maintainable code structures while mentoring junior developers and enforcing development best practices. Managed GitHub and Bitbucket repositories, performed code reviews, integrated payment gateways, configured hosting environments, and handled end-to-end deployment processes. Published and maintained Android and iOS applications on Google Play Console and Apple App Store, ensuring successful delivery of multiple client projects across web and mobile platforms.", skills: [ "React.js", "React Native", "Node.js", "Express.js", "MongoDB", "Redux", "JavaScript", "Tailwind CSS", "Material UI", "REST API", "Git", "GitHub", "Bitbucket", "Payment Gateway Integration", "Google Play Console", "Apple App Store", "Xcode", "Android Studio" ], },
+    { id: 3, img: grow, role: "Senior Frontend Developer", company: "Growwlancer Pvt. Ltd.", date: "Mar 2022 - Aug 2024", desc: "Worked as a Senior Frontend Developer, specializing in React.js application development. Built and maintained scalable, responsive, and high-performance web applications using React.js, Redux, JavaScript, Material UI, and REST APIs. Implemented secure authentication systems, integrated backend services, optimized application performance, and established maintainable project architectures. Collaborated closely with backend teams, conducted API testing using Postman, mentored junior developers, resolved complex UI/UX issues, and managed deployment processes to ensure seamless product delivery.", skills: [ "React.js", "JavaScript", "REST API", "Postman", "Git", "JWT Authentication", "HTML", "CSS" ], }
   ];
   
   export const education = [
+   {
+  id: 0,
+  img: glaLogo,
+  school: "Baba Mast Nath University, Rohtak",
+  date: "Jul 2025 - Present",
+  grade: "Pursuing",
+  desc: "Currently pursuing a Master of Computer Applications (MCA) with a specialization in Artificial Intelligence and Machine Learning from Baba Mast Nath University, Rohtak. The program focuses on advanced software development, AI/ML algorithms, data analytics, deep learning, cloud technologies, and modern computing practices. Alongside academics, I actively apply these concepts in real-world web and mobile application development projects, strengthening both my technical expertise and problem-solving skills.",
+  degree: "Master of Computer Applications (MCA) - AI & Machine Learning (Pursuing)",
+},
     {
-      id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
-    },
+  id: 1,
+  img: bsaLogo,
+  school: "Maharshi Dayanand University (MDU), Rohtak",
+  date: "Jul 2021 - Jun 2024",
+  grade: "73.2%",
+  desc: "Completed a Bachelor of Computer Applications (BCA) from Maharshi Dayanand University (MDU), Rohtak. Gained strong knowledge in software development, programming, database management, web technologies, data structures, and computer networks. Worked on academic and practical projects that enhanced problem-solving abilities and provided hands-on experience in building modern web and mobile applications.",
+  degree: "Bachelor of Computer Applications (BCA)",
+},
     {
-      id: 1,
-      img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
-    },
+  id: 2,
+  img: saini,
+  school: "Saini Senior Secondary School, Rohtak",
+  date: "Apr 2019 - Mar 2021",
+  grade: "94%",
+  desc: "Completed Class 12 from Saini Senior Secondary School, Rohtak, under the Haryana Board of School Education (HBSE). Studied Non-Medical stream with Physics, Chemistry, and Mathematics (PCM), developing a strong foundation in analytical thinking and problem-solving.",
+  degree: "HBSE (Class XII) - Non-Medical (PCM)",
+},
     {
-      id: 2,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
-    },
-    {
-      id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
-    },
+  id: 3,
+  img: vpsLogo,
+  school: "Vidhya Sagar High School, Rohtak",
+  date: "Apr 2018 - Mar 2019",
+  grade: "79.8%",
+  desc: "Completed Class 10 from Vidhya Sagar High School, Rohtak, under the Haryana Board of School Education (HBSE). Built a strong foundation in core academic subjects and developed analytical and problem-solving skills during my secondary education.",
+  degree: "HBSE (Class X)",
+},
   ];
   
   export const projects = [
