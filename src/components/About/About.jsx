@@ -42,11 +42,7 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 4.5 years of experience in
-            building scalable web applications. Skilled in both front-end and
-            back-end development, I specialize in the MERN stack and React Native
-            Developer or modern technologies to create seamless user experiences and
-            efficient solutions.
+            I am a Full Stack Developer with 4+ years of experience in building scalable web and mobile applications. Proficient in React.js, React Native, Node.js, Express.js, MongoDB, and modern JavaScript technologies, I specialize in developing high-performance solutions from concept to deployment. My expertise includes frontend and backend development, API integrations, server management, payment gateway integration, and Android/iOS app deployment, delivering seamless user experiences and business-focused solutions.
           </p>
           {/* Resume Button */}
           <a
